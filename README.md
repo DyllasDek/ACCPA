@@ -1,3 +1,9 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/aQadxazg)
-# stella-with-simple-extensions
-Template repository for Stella implementation with simple extensions.
+# stella-implementation-in-kotlin
+Template for an implementation of Stella in Kotlin.
+
+
+## How to use
+1. `gradlew build`
+2. `gradlew test`
+
+or just open the project in Intellij IDEA and run the `MainTest` function in `src/test/kotlin/MainTest.kt`.
