@@ -49,4 +49,9 @@ class TypeErrorOut {
         throw StellaTypeException()
     }
 
+    fun field_not_found(stellaident_: String?, s: String) {
+        println("TYPE ERROR \n in $s :\n Field $stellaident_ not found")
+        throw StellaTypeException()
+    }
+
 }
